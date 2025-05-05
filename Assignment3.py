@@ -28,16 +28,16 @@ print (result)
 '''import math
 
 num = int(input("Enter a number : "))
-#adding squareroot
+
 square_root = math.sqrt(num)
 
-#adding natural log
+
 if num > 0:
     natural_log = math.log(num)
 else:
     natural_log = "Not defined for 0 and negative numbers."
 
-# Sin in radius 
+
 Sine_value = math.sin(num)
 
 print(f"\nSquare root of {num} = {square_root: }")
